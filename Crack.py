@@ -1,3 +1,41 @@
+os.system("clear")
+print  """
+\33[1;33m─╔╗╔═╗\33[1;33m╔╦╗╔╦╗╔═╦╗\33[0m
+\33[0;36m─║║║╦╝\33[1;33m║╔╝║╔╝╚╗║║\33[0m
+\33[1;33m╔╣║║╩╗\33[1;33m║╚╗║╚╗╔╩╗║\33[0m
+\33[0;36m╚═╝╚═╝\33[0;36m╚╩╝╚╩╝╚══╝\33[0m
+\33[31;1m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\33[31;1m๑۩۩๑\33[31;1m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
+\033[1;91mAuthor©\033[1;91m: \033[1;93mId Jekky
+
+\033[1;91mYoutube\033[1;91m: \033[1;93mID Jekky.
+
+\033[1;91mFacebook\033[1;91m: \033[1;93mhttps://www.facebook.com/ID Jekky
+
+\033[1;91mTeam\033[1;91m: \033[1;93mCyber.Demang 
+\033[1;91m«--------------------\033[1;93m✧\033[1;91m--------------------»"""
+jalan("\33[1;33m Assalamualaikum Warahmatullahi wabarakhatu   ")
+jalan('\33[1;33m Username IDC Password Jekky
+print "\033[1;91m«-------------\033[1;93mLogin With Tool\033[1;91m-------------»"
+
+CorrectUsername = "IDC"
+CorrectPassword = "Jekky"
+
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;96m🔐 \x1b[1;91mTool Username \x1b[1;91m»» \x1b[1;93m")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m🔐 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;93m")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username #Dev:Man50or
+	    time.sleep(2)
+            loop = 'false'
+        else:
+            print "\033[1;91mWrong Password"
+            os.system('xdg-open https://youtu.be/53tvjO3Rwns')
+    else:
+        print "\033[1;91mWrong Username"
+        os.system('xdg-open https://youtu.be/53tvjO3Rwns')
+
 def menu():
 	os.system('clear')
 	try:
